@@ -8,7 +8,9 @@
 #
 # Run this to generate all the initial makefiles, etc.
 #                                                                                     
-# This file has been generated from common/autogen.sh.in via common/update-autogen    
+# This file has been generated from common/autogen.sh.in 
+# via common/update-autogen    
+
 
 test -n "$srcdir" || srcdir=`dirname "$0"`                                            
 test -n "$srcdir" || srcdir=.
