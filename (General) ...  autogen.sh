@@ -2,8 +2,9 @@
 #
 #                       changed 4 personal study use
 #                        hl9000 - cotirrep@gmail.com                                  
-#   **without: gstreamer autogen.sh, because fail. Who know the autor, inform me.
-#                                   Tnk u
+#               **without: gstreamer autogen.sh, because fail. 
+#                       Who know the autor, inform me.
+#                                  Tnk u
 #
 # Run this to generate all the initial makefiles, etc.
 #                                                                                     
