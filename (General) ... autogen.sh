@@ -2,14 +2,19 @@
 #
 #                       changed 4 personal study use
 #                        hl9000 - cotirrep@gmail.com                                  
-#               **without: gstreamer autogen.sh, because fail. 
+#          **without: gstreamer autogen.sh & git sources, because fail. 
 #                       Who know the autor, inform me.
 #                                  Tnk u
 #
-# Run this to generate all the initial makefiles, etc.
-#                                                                                     
-# This file has been generated from common/autogen.sh.in 
-# via common/update-autogen    
+# Run this to generate all the initial makefiles.
+#                               
+# was said that this file has been generated from
+#                common/autogen.sh.in via common/update-autogen   
+# 
+#   This program is distributed in the hope that it will be useful,but
+#   WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+#   or FITNESS FOR A PARTICULAR PURPOSE.
+#   Follow the GNU Lesser General Public License. See GNU-LGPL for more details.
 
 
 test -n "$srcdir" || srcdir=`dirname "$0"`                                            
@@ -81,4 +86,4 @@ echo "$srcdir/configure" $CONFIGURE_DEF_OPT $CONFIGURE_EXT_OPT
         exit 1
 }
 
-echo "Now type 'make' to compile $package."$
+echo "Now type 'make' to compile $package."
