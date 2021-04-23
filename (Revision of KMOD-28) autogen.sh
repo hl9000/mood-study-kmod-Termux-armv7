@@ -1,4 +1,11 @@
 #!/bin/sh                                                                                                                                                                                                                                                                                                
+#
+#     Revision in kmod-28 autogen.sh to armv7 Android. Now, attention because
+#     the program change linking a anther libtool before to make and give error 
+#     to aclocal.m4. Only change copping your bin libtool to kmod-28 folder.   
+#     Following (and you follow) the GNU General Public Licence.
+#                    hl9000 - cotirrep@gmail.com
+#
 
 set -e 
 
